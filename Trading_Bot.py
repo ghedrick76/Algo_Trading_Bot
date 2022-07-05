@@ -1,4 +1,5 @@
 import boto3
+import pandas as pd
 
 # Use Amazon S3
 s3 = boto3.resource('s3')
